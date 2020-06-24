@@ -14,7 +14,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 80vh;
   margin: 0;
 }
 .container {
@@ -32,7 +32,7 @@ body {
   padding: 10px 20px;
 }
 .form_control {
-  margin-bottom: 2px;
+  margin-bottom: 15px;
   padding-bottom: 5px;
   position: relative;
 }
@@ -59,8 +59,8 @@ body {
 }
 .form_control small {
   color: var(--error-color);
-  /*position: absolute;*/
-  visibility: visible;
+  position: absolute;
+  visibility: hidden;
 }
 .form_control.error small {
   visibility: visible;
@@ -70,6 +70,7 @@ body {
   background-color: #3498db;
   color: #fff;
   font-size: 16px;
+  margin-top: 5px;
   padding: 5px;
   border: 2px solid #3498db;
   border-radius: 5px;
